@@ -1,0 +1,116 @@
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.background-image{
+    width: 100%;
+    height: 100vh; /*for entire ecran*/
+    background-image:url(images/bcg1.jpg);
+    background-size:cover ;
+    background-repeat:non-repeat;
+}
+.hero-stats{
+    width: 200px;
+    height: 300px;
+    background-color: darkcyan;
+    color: white;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px solid whitesmoke;
+
+}
+.enemy-stats{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(94, 114, 114);
+    color: white;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px solid whitesmoke;
+    right: 10px;
+
+}
+/*Characters*/
+
+.hero-container{
+    width: 309px;
+    height: 222px;
+    /*background-color: white;*/
+    position: absolute;
+    top: 490px;
+    left: 225px;
+   /* background-image: url(images/elf.png);*/
+    background-size: 3400px;
+  
+    background-repeat:non-repeat;
+    background-position: 57px -3077px;
+    transition: transform 1s;
+}
+#damage-hero-container{
+    position: absolute;
+    bottom: 271px;
+    width: 30px;
+    height: 30px;
+    left: 414px;
+    /*background-color: tomato;*/
+    color: white;
+    
+    /*display: none;*/
+}
+
+/*Enemy*/
+#damage-enemy-container{
+    position: absolute;
+    top: 483px;
+    width: 30px;
+    height: 30px;
+    right: 183px;
+   /*background-color: tomato;*/
+    color: white;
+   /*display: none;*/
+}
+.enemy-container{ 
+    width: 165px;
+    height: 187px;
+    /*background-color: white;*/
+    position: absolute;
+    top: 490px;
+    left: 895px;
+    background-image: url(images/orc.png);
+    background-size: 2339px;
+    background-repeat:non-repeat;
+    background-position:-25px ;
+}
+
+.controls-hero {
+    width: 140px;
+    height: 30px;
+    background-color: rgb(29, 36, 36);
+    color: white;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px solid whitesmoke;
+    padding: 30px;
+    left: 1px;
+    bottom: 310px;
+}
+.controls-enemy {
+    width: 140px;
+    height: 30px;
+    background-color: rgb(29, 36, 36);
+    color: white;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px solid whitesmoke;
+    padding: 30px;
+    right: 10px;
+    bottom: 310px;
+}
+
+
+
